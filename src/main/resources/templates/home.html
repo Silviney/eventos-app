@@ -10,58 +10,124 @@
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="style/styleCss.css" />
-<style>
 
-  * {
-            margin: 0;
-            padding: 0;
-        }
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
 
- body {
-            background: #f2f2f2;
-            margin: 30px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #333;
-        }
+		h4 {
+			margin: 30px;
+			padding: 0;
+			text-align: center;
+			font-family: Times;
+			font-style: italic;
+		}
+		
+		h6 {
+			text-align: right;
+			font-style: italic;
+			color: grey;
+		}
 
-   .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            border: 1px solid #ececec;
-            border-radius: 5px;
-            padding: 30px;
-            box-shadow: 0px 0px 10px #0000000f;
-            background: #fff;
-        }
 
-</style>
-	
-	
+		body {
+			background: #f2f2f2;
+			margin: 30px;
+			font-family: Times;
+			font-size: 24px;
+			color: #333;
+			font-style: italic;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin-top: 30px;
+			border: 1px solid rgb(255, 128, 128);
+			border-radius: 15px;
+			padding: 60px;
+			box-shadow: 10px 10px 10px #0000000f;
+			background: #fff;
+		}
+
+		.nav-extended {
+			border-radius: 15px;
+			margin: 0;
+			padding: 0;
+		}
+
+		.nav-wrapper {
+			margin: 0;
+			padding: 0;
+		}
+
+		.nav-content {
+			margin: 0;
+			padding: 0;
+		}
+
+		img {
+			border-radius: 15px;
+			width: 80%;
+			height: 80%;
+
+
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+
+		}
+	</style>
+
+
 </head>
 
-<body >
-
-	<header>
-		<nav class="menu">
-			<div class="nav-wrapper">
-				<a href="#" class="brand-logo">Home</a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="/cadastrarEvento">Cadastrar Evento</a></li>
-					<li><a href="/eventos">Eventos Cadastrados</a></li>
-					<!-- <li><a href="#">JavaScript</a></li> -->
-				</ul>
-			</div>
-		</nav>
-	</header>
+<body>
 
 
-	</br>
-	</br>
-		<div class="container">
-			<h5 class="subtitulo">Lista de Eventos</h5>
-			<p>Atualizar dinamicamentedocu!</p>
-		<div>
+	<nav class="nav-extended">
+		<div class="nav-wrapper">
+
+			<a href="#" class="brand-logo center">Agenda de Tarefas</a>
+			<h1>_____________________________________________________________</h1>
+
+		</div>
+
+		<div class="nav-content">
+			<ul class="tabs tabs-transparent">
+				<li class="tab"><a href="/cadastrarEvento">Cadastrar Compromisso</a></li>
+				<li class="tab"><a href="/eventos">Lista de Compromissos</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+
+		<img width="310" height="201" th:src="@{/img/casal.jpeg}">
+		<h4>Silviney & Thais!</h4>
+
+
+
+		<p style="text-align: justify;"> Transforma-se o amador na cousa amada, Por virtude do muito imaginar;
+			Não tenho logo mais que desejar, Pois em mim tenho a parte desejada.</p>
 		</br>
+		<p style="text-align: justify;"> Se nela está minha alma transformada,
+			Que mais deseja o corpo de alcançar? Em si somente pode descansar, Pois consigo tal alma está liada.</p>
+		</br>
+		<p style="text-align: justify;"> Mas esta linda e pura semideia, Que, como o acidente em seu sujeito,Assim co'a
+			alma minha se conforma,</p>
+		</br>
+		<p style="text-align: justify;">Está no pensamento como ideia;
+			[E] o vivo e puro amor de que sou feito,
+			Como matéria simples busca a forma.</p>
+		</br>
+			<h6>Luís de Camões<h6>
+		</br>
+	</div>
+
+
 
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
