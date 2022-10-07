@@ -1,0 +1,57 @@
+
+
+.top {
+	margin: 30px auto;
+	overflow: auto;
+	border: 1px solid  rgb(238, 110, 115);
+	padding: 25px;
+	border-radius: 10px;
+}
+
+
+.detalhesEvento{
+	box-shadow: 0px 0px 5px grey;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 60px;
+}
+
+.formConvidado{
+	box-shadow: 0px 0px 5px grey;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 60px;
+}
+
+.tabelaConvidado{
+	width: 50%;
+}
+
+.formEvento{
+	box-shadow: 0px 0px 5px grey;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 60px;
+}
+
+.menu{
+	padding-left: 200px !important;
+	padding-right: 200px !important;
+}
+
+.home {
+	background-color: rgb(238, 110, 115);
+	font-size: 38px;
+	
+}
+
+.subtitulo {
+    font-size: 20px;
+
+    padding: 5px;
+    padding-left: 10px;
+    background-color: rgb(238, 110, 115);
+    color: rgb(255, 255, 255);
+}
